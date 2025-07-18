@@ -24,14 +24,14 @@ margin: 0 auto;
 
 .form-row {
   display: flex;
-  flex-direction: column; /* Stack on mobile */
+  flex-direction: column; 
   gap: 20px;
 }
 
 .form-group {
   display: flex;
   flex-direction: column;
-  width: 100%; /* Take full width on mobile */
+  width: 100%; 
 }
 
 .form-group label {
@@ -47,7 +47,7 @@ margin: 0 auto;
   border-radius: 8px;
   font-size: 1em;
   width: 100%;
-  box-sizing: border-box; /* Include padding and border in element's total width and height */
+  box-sizing: border-box; 
 }
 
 .form-group textarea {
@@ -63,8 +63,8 @@ margin: 0 auto;
 
 .checkbox-group input[type="checkbox"] {
   margin-right: 10px;
-  margin-top: 5px; /* Align checkbox with text */
-  transform: scale(1.2); /* Make checkbox a bit larger */
+  margin-top: 5px; 
+  transform: scale(1.2); 
 }
 
 .checkbox-group label {
@@ -101,15 +101,15 @@ margin: 0 auto;
 @media (min-width: 768px) {
   .claim-form-container {
     padding: 40px;
-    max-width: 700px; /* Allow form to be wider on desktop */
+    max-width: 700px; 
   }
 
   .form-row {
-    flex-direction: row; /* Side-by-side on desktop */
+    flex-direction: row; 
     gap: 30px;
   }
 
   .form-group {
-    flex: 1; /* Distribute space evenly */
+    flex: 1; 
   }
 }

@@ -56,7 +56,7 @@ overflow: hidden;
 }
 
 .features-list li::before {
-  content: '✔'; /* Checkmark icon */
+  content: '✔'; 
   color: #28a745;
   position: absolute;
   left: 0;

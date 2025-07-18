@@ -26,7 +26,6 @@ function ClaimForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Form Data Submitted:', formData);
-    // Here you would typically send data to a backend or an API
     alert('Claim submitted! (Check console for data)');
   };
 
