@@ -68,3 +68,65 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# Mesothelioma Claim Form - Responsive React Application
+
+This project is a responsive web application built with React.js for a Mesothelioma claim form and information display, based on the provided PDF designs.
+
+## Table of Contents
+
+-   [Features](#features)
+-   [Technical Stack](#technical-stack)
+-   [Getting Started](#getting-started)
+    -   [Prerequisites](#prerequisites)
+    -   [Installation](#installation)
+    -   [Running the Application](#running-the-application)
+-   [Deployment](#deployment)
+-   [Project Structure](#project-structure)
+-   [Responsiveness](#responsiveness)
+-   [Dependencies](#dependencies)
+
+## Features
+
+* **Free Case Review Card:** Displays information about confidential case review, no win no fee, and free evaluation.
+* **Mesothelioma Information Card:** Provides details about Mesothelioma, especially concerning women's experiences.
+* **Claim Form:** A comprehensive form for users to submit their claim details.
+* **Responsive Design:** Adapts seamlessly to various screen sizes (mobile, tablet, desktop).
+* **Interactive Elements:** Hover states (if implemented for buttons/inputs).
+
+## Technical Stack
+
+* **Framework:** React.js
+* **Styling:** CSS Modules (or plain CSS as per the example) for component-specific styling and global CSS for layout.
+* **Deployment:** Netlify / Vercel
+
+## Getting Started
+
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+Make sure you have Node.js and npm (Node Package Manager) installed on your machine.
+* Node.js (LTS version recommended)
+* npm (usually comes with Node.js)
+
+### Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://YOUR_GITHUB_REPO_LINK_HERE
+    cd mesothelioma-claim-form
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+### Running the Application
+
+To run the application in development mode:
+
+```bash
+npm start

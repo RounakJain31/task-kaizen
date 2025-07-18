@@ -1,0 +1,89 @@
+.case-review-card {
+background: linear-gradient(135deg, #ffffff, #f0f0f0);
+border-radius: 15px;
+padding: 30px;
+box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+text-align: center;
+max-width: 380px; 
+width: 100%; 
+position: relative;
+overflow: hidden;
+}
+
+.header-text {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.title-section {
+  margin-bottom: 20px;
+}
+
+.free-case-review-title {
+  font-size: 2.2em;
+  color: #333;
+  margin-bottom: 10px;
+  line-height: 1.1;
+}
+
+.slots-left {
+  background-color: #e0f2f7; 
+  color: #007bff; 
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+  transform: rotate(-10deg); 
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.features-list li {
+  margin-bottom: 10px;
+  color: #555;
+  font-size: 1.1em;
+  position: relative;
+  padding-left: 25px;
+}
+
+.features-list li::before {
+  content: '✔'; /* Checkmark icon */
+  color: #28a745;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-weight: bold;
+}
+
+.contact-us-button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-us-button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 480px) {
+    .case-review-card {
+        padding: 20px;
+    }
+    .free-case-review-title {
+        font-size: 1.8em;
+    }
+}
